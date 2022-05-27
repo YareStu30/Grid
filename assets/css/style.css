@@ -1,0 +1,35 @@
+html,
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 20% auto;
+  grid-template-areas:
+    "header header"
+    "aside main"
+    "footer footer";
+  grid-template-rows: 1fr 80% 1fr;
+  height: 100vh;
+}
+.header {
+  grid-area: header;
+  background-color: coral;
+}
+
+.main {
+  grid-area: main;
+  border: solid 1px grey;
+  background-color: gold;
+}
+.aside {
+  grid-area: aside;
+  background-color: chocolate;
+}
+
+.footer {
+  grid-area: footer;
+  background-color: coral;
+}
