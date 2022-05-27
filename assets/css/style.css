@@ -34,8 +34,10 @@ body {
 }
 
 .footer {
+  display: grid;
   grid-area: footer;
   background-color: coral;
+  place-items: center;
 }
 
 .aside ul li a {
