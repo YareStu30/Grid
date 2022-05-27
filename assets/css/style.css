@@ -15,9 +15,11 @@ body {
   height: 100vh;
 }
 .header {
+  display: grid;
   grid-area: header;
   background-color: coral;
   color: whitesmoke;
+  place-items: center;
 }
 
 .main {
