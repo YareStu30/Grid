@@ -39,6 +39,7 @@ body {
   background-color: coral;
   place-items: center;
   color: whitesmoke;
+  place-items: center;
 }
 
 .aside ul li a {
