@@ -31,6 +31,8 @@ body {
   grid-area: aside;
   background-color: chocolate;
   color: whitesmoke;
+  display: flex;
+  justify-content: space-between;
 }
 
 .footer {
@@ -41,4 +43,9 @@ body {
 .aside ul li a {
   text-decoration: none;
   color: whitesmoke;
+}
+
+.aside li a {
+  border-radius: 3px;
+  margin: 2em;
 }
