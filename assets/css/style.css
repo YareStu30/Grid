@@ -38,6 +38,7 @@ body {
   grid-area: footer;
   background-color: coral;
   place-items: center;
+  color: whitesmoke;
 }
 
 .aside ul li a {
